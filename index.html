@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            .flex-container{
+                display: flex;
+                flex-direction: column;
+                height: 650px;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            li {
+                float: left;
+                position: relative;
+            }
+            li a {
+                display: block;
+                padding: 8px;
+            }
+            #rightele{
+                float:right;
+                position:relative;
+            }
+            #button{
+                float:right;
+                position:relative;
+                background-color: #4350ff;
+            }
+
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="#about">About</a</li>
+            <li><a href="#store">Store</a></li>
+            <input id="button" type="button" value="Sign In">
+            <li id="rightele"><a href="#gmail">Gmail</a></li>
+            <li id="rightele"><a href="#images">Images</a></li>
+            
+        </ul>
+        <div class="flex-container">
+            <a href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"><br>
+            </a>
+            <form> 
+                <input type="text">
+            </form>
+        </div>
+        <div>
+            
+        </div>
+    </body>
+
+</html>
