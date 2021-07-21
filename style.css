@@ -1,0 +1,102 @@
+.navTopLeft{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top:1.5rem;
+    font-size:1rem;
+}
+.navTopRight{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size:1rem;
+}
+.nav-link{
+    margin-right:1.5rem;
+    opacity: 0.85;
+}
+
+.button-apps{
+    width: 30px;
+    height: 30px;
+    margin-right:1.5rem;
+    background-image: url("ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-position: -132px -38px;
+    opacity: 0.5
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top:15rem;
+    
+}
+.logo{
+    width: 272px;
+    height: 92px;
+    margin-bottom:3rem;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    border: 0.1px solid var(--border-color);
+    border-radius:30px;
+}
+.search-icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
+}
+.search-input{
+    width: 90%;
+    font-size: 1.6rem;
+}
+.microphone-icon{
+    width: 25px;
+    height: 25px;
+}
+.button-search{
+    min-width:54px;
+    height:36px;
+    padding: 0 2rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 0.7rem;
+    font-size: 1rem;
+}
+.button-sign-in{
+    background-color: rgb(31, 126, 214);
+    height: 30px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.left-section,
+.right-section {
+    display: flex;
+}
+
+.right-section{
+    margin-right: 3rem;
+}
+
+.footer-link{
+    display: block;
+    padding: 1rem 0 1rem 3rem;
+}
